@@ -20,11 +20,11 @@
             text-align: center;
         }
         #button {
-            padding: 20px 40px;
-            font-size: 24px;
-            background-color: #ff69b4;
+            background: url('cupcake.png') no-repeat center center;
+            background-size: contain;
+            width: 150px;
+            height: 150px;
             border: none;
-            border-radius: 10px;
             cursor: pointer;
         }
         .firework {
@@ -154,7 +154,7 @@
     </style>
 </head>
 <body>
-    <button id="button" onclick="showAnimation()">Click Me!</button>
+    <button id="button" title="Click the cupcake for a surprise!" onclick="showAnimation()"></button>
     <div id="animation-container">
         <div class="firework"></div>
         <div class="firework"></div>
